@@ -412,7 +412,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "pages":
         await query.answer()
     elif query.data == "start":
-        buttons = [[
+        buttons = [[InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/darkwolfmovie_bot?startgroup=true') 
+  ],[
             InlineKeyboardButton('💘 𝖶𝖮𝖱𝖪𝖨𝖭𝖦 𝖦𝖱𝖮𝖴𝖯 💘', url='https://t.me/moviehubgroupp')
             ],[
             InlineKeyboardButton('Help 🥺', callback_data='help'),
