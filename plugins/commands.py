@@ -36,7 +36,8 @@ async def start(client, message):
         await db.add_user(message.from_user.id, message.from_user.first_name)
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
-        buttons = [[
+        buttons = [[InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/darkwolfmovie_bot?startgroup=true') 
+  ],[
             InlineKeyboardButton('💘 𝖶𝖮𝖱𝖪𝖨𝖭𝖦 𝖦𝖱𝖮𝖴𝖯 💘', url='https://t.me/searchandtakemovie')
             ],[
             InlineKeyboardButton('Help 🥺', callback_data='help'),
@@ -74,7 +75,8 @@ async def start(client, message):
             )
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
-        buttons = [[
+        buttons = [[InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/darkwolfmovie_bot?startgroup=true') 
+  ],[
             InlineKeyboardButton('💘 𝖶𝖮𝖱𝖪𝖨𝖭𝖦 𝖦𝖱𝖮𝖴𝖯 💘', url='https://t.me/moviehubgroupp')
             ],[
             InlineKeyboardButton('Help 🥺', callback_data='help'),
