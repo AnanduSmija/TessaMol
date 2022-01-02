@@ -1,12 +1,9 @@
 class script(object):
-    START_TXT = """<b>𝖸𝗈..𝖸𝗈.. {} 🙋‍♂️,
-My Name is Tessa I'm a Auto-Filter Bot You Can't Use Me in Your Group because I'm a private bot....🤓
-\nI Only Work <a href="https://t.me/searchandtakemovie">MOVIE COLLECTION</a> Group..🤓
-\n➖➖➖➖➖➖➖➖➖➖➖➖➖
+    START_TXT = """<b>𝖸𝗈..𝖸𝗈.. {} 🙋‍♂️,𝖭𝗂𝖼𝖾 𝗍𝗈 𝗆𝖾𝖾𝗍 𝗒𝗈𝗎 🙌\n\n𝖨'𝗆 𝗃𝗎𝗌𝗍 𝖺 𝗌𝗂𝗆𝗉𝗅𝖾 𝗉𝗋𝖾 - 𝖿𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝖾𝖽 𝖺𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍\ni𝗍𝗌 𝖾𝖺𝗌𝗒 𝗍𝗈 𝗎𝗌𝖾 𝗆𝖾; 𝗃𝗎𝗌𝗍 𝖺𝖽𝖽 𝗆𝖾 𝗍𝗈 𝗒𝗈𝗎𝗋 𝗀𝗋𝗈𝗎𝗉 𝖺𝗌 𝖺𝖽𝗆𝗂𝗇\n And Enjoy.....
+
 ©️MᴀɪɴᴛᴀɪɴᴇD Bʏ: <a href="https://t.me/Anandu2506">𝖠𝗇𝖺𝗇𝖽𝗎</a></b>"""
     HELP_TXT = """<b>𝖧𝖾𝗒 {} 
-𝖸𝗈𝗎 𝖢𝖺𝗇'𝗍 𝖴𝗌𝖾 𝖬𝖾..𝖨𝖺𝗆 𝖯𝗋𝗂𝗏𝖾𝗍 𝖡𝗈𝗍..🤓
-\n○ Sorry bruh... I can't help You because I'm a private bot🥲
+ADD ME TO YOUR GROUP
 ○ You Can Check My status  Using This Command /Stats
 ○ Notice 📙:-
 
